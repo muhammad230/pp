@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background: #000;
+        }
+    </style>
 </head>
 <body>
-    <h1>khjh</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>  
-    </nav>
+
+    <script>
+    let newBtn = document.createElement('button').addEventListener(onclick,(()=>{
+        console.log("hussain");
+        
+    }))
+    newBtn.innerText = 'click me'
+    newBtn.style.color ="white"
+    newBtn.style.backgroundColor ="red"
+
+    document.querySelector("body").prepend(newBtn);
+
+    if (newBtn.style.backgroundColor ="red") {
+        console.log("ali");
+        
+        
+    }
+
+
+
+        
+
+        
+
+       
+    </script>
 </body>
 </html>
